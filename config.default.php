@@ -67,7 +67,7 @@ define('MAIL_SENDMAIL_COMMAND', '/usr/sbin/sendmail -bs');
 define('DB_RUN_MIGRATIONS', true);
 
 // Database driver: sqlite, mysql or postgres (sqlite by default)
-define('DB_DRIVER', 'sqlite');
+define('DB_DRIVER', 'mysql');
 
 // Mysql/Postgres username
 define('DB_USERNAME', 'root');
