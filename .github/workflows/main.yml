@@ -18,5 +18,4 @@ jobs:
         server: ${{ secrets.ftp_server }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        protocol: ftps
-        port: 22
+        server-dir: ${{ secrets.ftp_server_dir }}
